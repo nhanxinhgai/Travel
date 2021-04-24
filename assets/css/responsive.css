@@ -1,0 +1,119 @@
+
+/* Mobile & Tablet */
+@media (max-width : 1023px ) {
+    
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .header__navbar{
+        flex-direction: column;
+    }
+    .header__navbar-img{
+        margin:0px auto 20px;
+        padding-right: 0px;
+    }
+    .row__content-resp{
+        display:flex;
+        justify-content:center;
+    }
+    .mobie-menu-button{
+        padding-left:0;
+    }
+
+    .content__view-button{
+        /* margin-left:600px; */
+    }
+    .header__content-place{
+        flex-direction: column;
+        width: 100%;
+    }
+    .header__content-place-item{
+        width:100%;
+        margin : 0 0 30px;
+    }
+    .col-sm-padd{
+        padding:15px;
+    }
+    .content__countdown{
+        width:100%;
+        left:0;
+        right:0;
+        bottom:0;
+    }
+    .content__place-time{
+        margin-top: 20px;
+    }
+    .content__discover-list{
+        display:block;
+    }
+    .content__discover-item{
+        width:100%;
+    }
+    .footer__head-second{
+        margin-bottom: 4px;
+    }
+    .footer__head-send-btn{
+        padding:10px 60px;
+    }
+    .footer__content-footer-active-resp{
+        text-align:center;
+        padding:20px;
+    }
+    .footer__content-footer-item-active{
+        float: none;
+    }
+    .travle__pakage-img{
+        height: auto;
+    }
+    .content__view{
+        height:auto;
+    }
+}
+
+/* Tablet */
+@media (min-width : 740px ) and (max-width:1023px) {
+    .slider{
+        padding-bottom: 80%;
+        padding-top: 70%;
+    }
+    .header__content-destination{
+         width:100% ; 
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .slider{
+        padding-top:50%;
+        padding-bottom:1100px;
+    }
+    .row__content-resp{
+        padding:0 60px;
+    }
+    .header__contetn-search-btn{
+        right:50px;
+    }
+    .content__place-time{
+        padding-top: 80%;
+    }
+
+    .footer__head{
+        justify-content:center;
+    }
+    .footer__head-send-input{
+        margin-right: 0;
+    }
+    .footer__head-send-btn{
+        padding:14px 60px;
+    }
+    .footer__wrapper-content{
+        padding-right: 0px;
+    }
+    .footer__head-send{
+        display:block;
+    }
+    .grid{
+        margin: 0 50px;
+    }
+}
